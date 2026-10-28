@@ -28,7 +28,7 @@ export default function StackGrid({ compact = false }) {
           <Reveal key={group.group} delay={(i % 3) * 80}>
             <div className="b-card h-full p-7">
               <div className="flex items-center gap-3">
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center bg-ink text-volt">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center bg-ink text-paper">
                   <Icon size={16} strokeWidth={2.2} aria-hidden="true" />
                 </span>
                 <h3 className="b-display text-[1rem] text-ink">{group.group}</h3>
